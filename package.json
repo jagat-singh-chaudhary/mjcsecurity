@@ -1,0 +1,31 @@
+{
+  "name": "mjcsecurity-website",
+  "version": "1.0.0",
+  "description": "Professional VAPT & Cybersecurity Website for MJC SECURITY",
+  "main": "index.html",
+  "scripts": {
+    "start": "open index.html"
+  },
+  "keywords": [
+    "VAPT",
+    "Penetration Testing",
+    "Cybersecurity",
+    "Vulnerability Assessment",
+    "Security Testing",
+    "MJC Security"
+  ],
+  "author": {
+    "name": "Jagat Singh Chaudhary",
+    "email": "singhjc083@gmail.com",
+    "url": "https://www.linkedin.com/in/jagat-singh-b824701b8/"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jagat-singh-chaudhary/MJCSECURITY"
+  },
+  "bugs": {
+    "url": "https://github.com/jagat-singh-chaudhary/MJCSECURITY/issues"
+  },
+  "homepage": "https://github.com/jagat-singh-chaudhary/MJCSECURITY#readme"
+}
