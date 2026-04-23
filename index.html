@@ -1,214 +1,402 @@
-<!DOCTYPE HTML>
-<html>
-	<head>
-		<title>PHPJabbers.com | Free Blog Website Template</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MJC SECURITY - VAPT & Cybersecurity Solutions</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <h1>MJC SECURITY</h1>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#team">Team</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
 
-		<!-- Wrapper -->
-			<div id="wrapper">
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Protect Your Digital Assets</h1>
+                <p>Professional Vulnerability Assessment & Penetration Testing Services</p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">Get Started</a>
+                    <a href="#services" class="btn btn-secondary">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
 
-				<!-- Header -->
-				<header id="header" class="alt">
-					<a href="index.html" class="logo"><strong>Blog</strong> <span>Website</span></a>
-					<nav>
-						<a href="#menu">Menu</a>
-					</nav>
-				</header>
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-title">
+                <h2>About MJC SECURITY</h2>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Professional Cybersecurity Expertise</h3>
+                    <p>MJC SECURITY is a leading cybersecurity firm specializing in Vulnerability Assessment and Penetration Testing (VAPT). With years of expertise, we help organizations identify and mitigate security risks.</p>
+                    <p>Our team of certified security professionals is dedicated to providing comprehensive security solutions tailored to your organization's unique needs.</p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <h3>10+</h3>
+                            <p>Years Experience</p>
+                        </div>
+                        <div class="stat">
+                            <h3>500+</h3>
+                            <p>Assessments Completed</p>
+                        </div>
+                        <div class="stat">
+                            <h3>24/7</h3>
+                            <p>Support Available</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="images/about-placeholder.jpg" alt="About MJC Security">
+                </div>
+            </div>
+        </div>
+    </section>
 
-				<!-- Menu -->
-				<nav id="menu">
-					<ul class="links">
-		                <li class="active"> <a href="index.html">Home </a> </li>
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our Services</h2>
+                <p>Comprehensive cybersecurity solutions tailored to your needs</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <i class="icon">🔍</i>
+                    <h3>Vulnerability Assessment</h3>
+                    <p>Comprehensive scanning and identification of security vulnerabilities in your infrastructure, applications, and networks.</p>
+                </div>
+                <div class="service-card">
+                    <i class="icon">🎯</i>
+                    <h3>Penetration Testing</h3>
+                    <p>Simulate real-world attacks to test your security measures and identify exploitable weaknesses before criminals do.</p>
+                </div>
+                <div class="service-card">
+                    <i class="icon">🛡️</i>
+                    <h3>Web Application Security</h3>
+                    <p>In-depth testing of web applications to identify OWASP Top 10 vulnerabilities and custom security issues.</p>
+                </div>
+                <div class="service-card">
+                    <i class="icon">🔐</i>
+                    <h3>Network Security Testing</h3>
+                    <p>Complete network infrastructure assessment including firewalls, routers, and internal network vulnerabilities.</p>
+                </div>
+                <div class="service-card">
+                    <i class="icon">📱</i>
+                    <h3>Mobile App Security</h3>
+                    <p>Security testing for iOS and Android applications to ensure data protection and user privacy.</p>
+                </div>
+                <div class="service-card">
+                    <i class="icon">📋</i>
+                    <h3>Compliance Testing</h3>
+                    <p>Ensure compliance with industry standards including PCI DSS, HIPAA, GDPR, and ISO 27001.</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-		                <li> <a href="blog.html">Blog</a> </li>
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our Portfolio</h2>
+                <p>Successful projects and client case studies</p>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-card">
+                    <div class="portfolio-image">📊</div>
+                    <div class="portfolio-info">
+                        <h3>Financial Services - PCI DSS Compliance</h3>
+                        <p>Identified 47 vulnerabilities and helped achieve PCI DSS Level 1 compliance. Zero security incidents in 2 years.</p>
+                    </div>
+                </div>
+                <div class="portfolio-card">
+                    <div class="portfolio-image">🛒</div>
+                    <div class="portfolio-info">
+                        <h3>E-commerce Platform - Web App Security</h3>
+                        <p>Comprehensive penetration test revealed critical SQL injection vulnerabilities. All issues remediated successfully.</p>
+                    </div>
+                </div>
+                <div class="portfolio-card">
+                    <div class="portfolio-image">🏥</div>
+                    <div class="portfolio-info">
+                        <h3>Healthcare Provider - HIPAA Assessment</h3>
+                        <p>Full HIPAA compliance assessment and vulnerability management program. 100% remediation rate achieved.</p>
+                    </div>
+                </div>
+                <div class="portfolio-card">
+                    <div class="portfolio-image">💻</div>
+                    <div class="portfolio-info">
+                        <h3>Tech Startup - Network Penetration Test</h3>
+                        <p>Multi-phase penetration test simulating advanced persistent threats. Provided actionable security roadmap.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-		                <li> <a href="about-us.html">About Us</a> </li>
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing">
+        <div class="container">
+            <div class="section-title">
+                <h2>Pricing Plans</h2>
+                <p>Flexible options for businesses of all sizes</p>
+            </div>
+            <div class="pricing-grid">
+                <div class="price-card">
+                    <h3>Starter</h3>
+                    <div class="price">$2,999<span>/month</span></div>
+                    <ul class="price-features">
+                        <li><i class="check">✓</i> Network Vulnerability Scan</li>
+                        <li><i class="check">✓</i> Basic Web App Testing</li>
+                        <li><i class="check">✓</i> Monthly Reports</li>
+                        <li><i class="check">✓</i> Email Support</li>
+                    </ul>
+                    <button class="btn btn-secondary">Choose Plan</button>
+                </div>
+                <div class="price-card featured">
+                    <h3>Professional</h3>
+                    <div class="price">$7,999<span>/month</span></div>
+                    <ul class="price-features">
+                        <li><i class="check">✓</i> Full Penetration Testing</li>
+                        <li><i class="check">✓</i> Advanced Web App Testing</li>
+                        <li><i class="check">✓</i> Network Assessment</li>
+                        <li><i class="check">✓</i> Bi-weekly Reports</li>
+                        <li><i class="check">✓</i> Phone & Email Support</li>
+                    </ul>
+                    <button class="btn btn-primary">Choose Plan</button>
+                </div>
+                <div class="price-card">
+                    <h3>Enterprise</h3>
+                    <div class="price">Custom</div>
+                    <ul class="price-features">
+                        <li><i class="check">✓</i> Custom Scope</li>
+                        <li><i class="check">✓</i> Red Team Exercises</li>
+                        <li><i class="check">✓</i> Compliance Testing</li>
+                        <li><i class="check">✓</i> 24/7 Support</li>
+                        <li><i class="check">✓</i> Dedicated Account Manager</li>
+                    </ul>
+                    <button class="btn btn-secondary">Contact Us</button>
+                </div>
+            </div>
+        </div>
+    </section>
 
-		                <li> <a href="team.html">Authors</a> </li>
+    <!-- Team Section -->
+    <section id="team" class="team">
+        <div class="container">
+            <div class="section-title">
+                <h2>Meet Our Team</h2>
+                <p>Expert cybersecurity professionals</p>
+            </div>
+            <div class="team-grid">
+                <div class="team-card">
+                    <div class="team-image">
+                        <img src="founder-photo.jpg" alt="Founder" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22300%22 height=%22400%22%3E%3Crect fill=%22%230066cc%22 width=%22300%22 height=%22400%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 font-size=%2240%22 fill=%22white%22 text-anchor=%22middle%22 dominant-baseline=%22middle%22%3EFounder%3C/text%3E%3C/svg%3E'">
+                    </div>
+                    <div class="team-info">
+                        <h3>Jagat Singh Chaudhary</h3>
+                        <p class="title">Founder & Chief Security Officer</p>
+                        <div class="team-credentials">
+                            <span class="badge badge-gold">Top 15 Researcher - NCIIPC</span>
+                            <span class="badge badge-critical">CVE-2023-43187 (CRITICAL 9.8)</span>
+                        </div>
+                        <p>Expert in Penetration Testing, Web Application Security, Cyber Forensics & Networking</p>
+                        <div class="team-socials">
+                            <a href="https://www.linkedin.com/in/jagat-singh-b824701b8/" target="_blank" title="LinkedIn">in</a>
+                            <a href="mailto:singhjc083@gmail.com" title="Email">✉</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-		                <li><a href="contact.html">Contact Us</a></li>
-            		</ul>
-				</nav>
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-title">
+                <h2>What Our Clients Say</h2>
+                <p>Trusted by leading organizations worldwide</p>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="stars">★★★★★</div>
+                    <p>"MJC SECURITY helped us identify critical vulnerabilities we didn't know existed. Their professionalism and expertise are outstanding."</p>
+                    <p class="author">- John Davis, CTO at FinTech Corp</p>
+                </div>
+                <div class="testimonial-card">
+                    <div class="stars">★★★★★</div>
+                    <p>"The detailed reports and actionable recommendations were invaluable for our security roadmap."</p>
+                    <p class="author">- Sarah Johnson, IT Manager at Tech Solutions</p>
+                </div>
+                <div class="testimonial-card">
+                    <div class="stars">★★★★★</div>
+                    <p>"Professional, timely, and thorough. Exceeded our expectations on our HIPAA compliance assessment."</p>
+                    <p class="author">- Dr. Michael Brown, Hospital Administrator</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-				<!-- Banner -->
-					<section id="banner" class="major">
-						<div class="inner">
-							<header class="major">
-								<h1>Lorem ipsum dolor sit amet isicing</h1>
-							</header>
-							<div class="content">
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos, libero!</p>
-								<ul class="actions">
-									<li><a href="contact.html" class="button next scrolly">Contact us</a></li>
-								</ul>
-							</div>
-						</div>
-					</section>
+    <!-- Blog Section -->
+    <section id="blog" class="blog">
+        <div class="container">
+            <div class="section-title">
+                <h2>Latest Blog Posts</h2>
+                <p>Cybersecurity insights and best practices</p>
+            </div>
+            <div class="blog-grid">
+                <div class="blog-card">
+                    <div class="blog-image"></div>
+                    <div class="blog-content">
+                        <p class="date">April 15, 2026</p>
+                        <h3>Top 10 OWASP Vulnerabilities in 2026</h3>
+                        <p>An updated guide on the most critical web application vulnerabilities and how to prevent them.</p>
+                        <a href="#" class="read-more">Read More →</a>
+                    </div>
+                </div>
+                <div class="blog-card">
+                    <div class="blog-image"></div>
+                    <div class="blog-content">
+                        <p class="date">April 10, 2026</p>
+                        <h3>Getting Ready for GDPR Compliance</h3>
+                        <p>Essential steps your organization should take to ensure GDPR compliance and avoid hefty fines.</p>
+                        <a href="#" class="read-more">Read More →</a>
+                    </div>
+                </div>
+                <div class="blog-card">
+                    <div class="blog-image"></div>
+                    <div class="blog-content">
+                        <p class="date">April 5, 2026</p>
+                        <h3>The Future of Penetration Testing</h3>
+                        <p>Emerging trends and technologies shaping the future of security testing and threat detection.</p>
+                        <a href="#" class="read-more">Read More →</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-				<!-- Main -->
-					<div id="main">
-							<!-- About us -->
-							<section>
-								<div class="inner">
-									<header class="major">
-										<h2>About us</h2>
-									</header>
-									<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus.</p>
-									<ul class="actions">
-										<li><a href="about-us.html" class="button next">Read more</a></li>
-									</ul>
-								</div>
-							</section>
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-title">
+                <h2>Get In Touch</h2>
+                <p>Ready to secure your business?</p>
+            </div>
+            <div class="contact-content">
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label>Your Name</label>
+                        <input type="text" placeholder="Enter your name" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Your Email</label>
+                        <input type="email" placeholder="Enter your email" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Company Name</label>
+                        <input type="text" placeholder="Enter company name" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Select Service</label>
+                        <select required>
+                            <option value="">Select Service</option>
+                            <option value="va">Vulnerability Assessment</option>
+                            <option value="pt">Penetration Testing</option>
+                            <option value="was">Web Application Security</option>
+                            <option value="nst">Network Security Testing</option>
+                            <option value="mas">Mobile App Security</option>
+                            <option value="ct">Compliance Testing</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Your Message</label>
+                        <textarea placeholder="Tell us about your project..." rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+                <div class="contact-info">
+                    <h3>Contact Information</h3>
+                    <div class="info-item">
+                        <h4>📍 Address</h4>
+                        <p>Block BALAJI NAGAR<br>RIJCO ROAD, Bharatpur<br>Rajasthan 321001, India</p>
+                    </div>
+                    <div class="info-item">
+                        <h4>📞 Phone</h4>
+                        <p>+91-6350025068</p>
+                    </div>
+                    <div class="info-item">
+                        <h4>📧 Email</h4>
+                        <p><a href="mailto:singhjc083@gmail.com">singhjc083@gmail.com</a></p>
+                    </div>
+                    <div class="info-item">
+                        <h4>🕒 Business Hours</h4>
+                        <p>Monday - Friday: 9:00 AM - 6:00 PM<br>Saturday: 10:00 AM - 4:00 PM<br>Sunday: Closed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-							<!-- Blog Posts -->
-							<section class="tiles">
-								<article>
-									<span class="image">
-										<img src="images/blog-1-720x480.jpg" alt="" />
-									</span>
-									<header class="major">
-										<h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit hic</h3>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>MJC SECURITY</h3>
+                    <p>Leading Cybersecurity & VAPT Solutions Provider</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#pricing">Pricing</a></li>
+                        <li><a href="#blog">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Follow Us</h3>
+                    <div class="footer-social">
+                        <a href="https://www.linkedin.com/in/jagat-singh-b824701b8/" target="_blank">LinkedIn</a>
+                        <a href="#">Twitter</a>
+                        <a href="#">Facebook</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-copyright">
+                <p>&copy; 2026 MJC SECURITY PVT. LTD. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
 
-										<p><br> <span>John Doe</span> | <span>12/06/2020 10:30 </span> | <span>114</span></p>
-
-										<div class="major-actions">
-											<a href="blog-details.html" class="button small next scrolly">Read Blog</a>
-										</div>
-									</header>
-								</article>
-								<article>
-									<span class="image">
-										<img src="images/blog-2-720x480.jpg" alt="" />
-									</span>
-									<header class="major">
-										<h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit hic</h3>
-
-										<p><br> <span>John Doe</span> | <span>12/06/2020 10:30 </span> | <span>114</span></p>
-
-										<div class="major-actions">
-											<a href="blog-details.html" class="button small next scrolly">Read Blog</a>
-										</div>
-									</header>
-								</article>
-								<article>
-									<span class="image">
-										<img src="images/blog-3-720x480.jpg" alt="" />
-									</span>
-									<header class="major">
-										<h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit hic</h3>
-
-										<p><br> <span>John Doe</span> | <span>12/06/2020 10:30 </span> | <span>114</span></p>
-
-										<div class="major-actions">
-											<a href="blog-details.html" class="button small next scrolly">Read Blog</a>
-										</div>
-									</header>
-								</article>
-
-								<article>
-									<span class="image">
-										<img src="images/blog-4-720x480.jpg" alt="" />
-									</span>
-									<header class="major">
-										<h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit hic</h3>
-
-										<p><br> <span>John Doe</span> | <span>12/06/2020 10:30 </span> | <span>114</span></p>
-
-										<div class="major-actions">
-											<a href="blog-details.html" class="button small next scrolly">Read Blog</a>
-										</div>
-									</header>
-								</article>
-
-								<article>
-									<span class="image">
-										<img src="images/blog-5-720x480.jpg" alt="" />
-									</span>
-									<header class="major">
-										<h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit hic</h3>
-
-										<p><br> <span>John Doe</span> | <span>12/06/2020 10:30 </span> | <span>114</span></p>
-
-										<div class="major-actions">
-											<a href="blog-details.html" class="button small next scrolly">Read Blog</a>
-										</div>
-									</header>
-								</article>
-
-								<article>
-									<span class="image">
-										<img src="images/blog-6-720x480.jpg" alt="" />
-									</span>
-									<header class="major">
-										<h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit hic</h3>
-
-										<p><br> <span>John Doe</span> | <span>12/06/2020 10:30 </span> | <span>114</span></p>
-
-										<div class="major-actions">
-											<a href="blog-details.html" class="button small next scrolly">Read Blog</a>
-										</div>
-									</header>
-								</article>
-							</section>
-
-							<!-- Testimonials -->
-							<section>
-								<div class="inner">
-									<header class="major">
-										<h2>Testimonials</h2>
-									</header>
-									<div class="row">
-										<div class="col-6">
-											<p><em>"Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt."</em></p>
-											<p><strong>- John Doe</strong></p>
-											
-										</div>
-
-										<div class="col-6">
-											<p><em>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores temporibus dolorum minus repudiandae, eaque error corporis aliquam, architecto amet itaque nobis. Omnis itaque est dolore, a nostrum numquam. Quae, facilis."</em></p>
-											<p><strong>- Jack Smith</strong></p>
-										</div>
-									</div>
-									<ul class="actions">
-										<li><a href="testimonials.html" class="button next">Read more</a></li>
-									</ul>
-								</div>
-							</section>
-					</div>
-
-				<!-- Footer -->
-				<footer id="footer">
-					<div class="inner">
-						<ul class="icons">
-							<li><a href="#" class="icon alt fa-twitter"><span class="label">Twitter</span></a></li>
-							<li><a href="#" class="icon alt fa-facebook"><span class="label">Facebook</span></a></li>
-							<li><a href="#" class="icon alt fa-instagram"><span class="label">Instagram</span></a></li>
-							<li><a href="#" class="icon alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
-						</ul>
-						<ul class="copyright">
-							<li>Copyright © 2020 Company Name - Template by:</li>
-							<li> <a href="https://www.phpjabbers.com/">PHPJabbers.com</a></li>
-						</ul>
-					</div>
-				</footer>
-
-			</div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
+    <script src="script.js"></script>
+</body>
 </html>
